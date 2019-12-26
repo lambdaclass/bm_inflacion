@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 from matplotlib.dates import DateFormatter
 import matplotlib.dates as mdates
 from matplotlib.ticker import AutoMinorLocator
-    def plot(df,headers):
+def plot(df,headers):
     fig, ax = plt.subplots(constrained_layout=True, figsize=(16, 7))
 
     years = mdates.YearLocator()   # every year
