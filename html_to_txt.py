@@ -19,3 +19,4 @@ def html_to_text(html,name,save=False):
         text_file = open(name+'.txt', "w")
         text_file.write(s[3:])
         text_file.close()
+    return s
