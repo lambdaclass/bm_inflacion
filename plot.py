@@ -23,5 +23,5 @@ def plot(df,headers):
     ax.set_ylabel('Inflation',fontweight='bold',fontsize='x-large')
     ax.set_title('Inflation over time, Argentina',fontweight='bold',fontsize='xx-large')
 
-    ax.plot(x_data, df=['Inflation'][-300:],"ob",markersize=1)
+    ax.plot(x_data, df['Inflation'][-300:],"ob",markersize=1)
     plt.show()
