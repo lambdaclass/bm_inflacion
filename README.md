@@ -1,2 +1,2 @@
 # monetary_base_inflation_correlation
-A study of the correlation between monetary base and inflation in Argentina's recent history
+A scraper that fetches inflation data from INDEC and monetary base data from Argentina's Central Bank to study of the correlation between these variables in Argentina's recent history.
